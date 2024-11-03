@@ -12,16 +12,23 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.normnorm.ASTROPHYSIA"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.normnorm.ASTROPHYSIA"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/splash.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3d4c28c6-5325-4bd6-9a84-52b4d2014c7c"
+      }
     }
   }
 }
